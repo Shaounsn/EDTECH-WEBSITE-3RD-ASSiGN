@@ -257,7 +257,42 @@
                     when looking at its layout </p>
             </div>
             <div>
-                <button type="submit" class="btn bg-white text-info fw-bold">Register Now</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-white text-info fw-bold" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"> Registration form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex flex-column">
+                                <input class="mb-3" type="text" placeholder="Your Name">
+                                <input type="email" placeholder="Your mail id">
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" name="" id="flexcheckDefault">
+                                    <label for="form-check-label" For="" flexcheckDefault> Accept our <a href="">Terms &
+                                            Condition</a></label>
+
+                                </div>
+                                <button class="btn btn-info text-white mt-3"> Submit </button>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -265,11 +300,14 @@
         <!-- successfulstudents -->
 
         <section class="container mt-5">
+            <div class="mb-5">
 
-            <h1> Meet our Successfull <br>Students </h1>
-            <p>students stay on track keeping their eyes on the prize. <br> Engaged: students actively participate in
-                class
-                and extracurricular activities.</p>
+                <h1 class="text-center"> Meet our Successfull <br>Students </h1>
+                <p class="text-center">students stay on track keeping their eyes on the prize. <br> Engaged: students
+                    actively participate in
+                    class
+                    and extracurricular activities.</p>
+            </div>
 
 
 
@@ -512,26 +550,6 @@
 
     </main>
 
-    <footer class="border rounded-3 bg-black mb-5" style="height:300px ;">
-
-        <span class="text-white text-center">
-            <h1 class="fs-1 mt-5"> Pro Edu</h1>
-            <p> Uttara Dhaka Bangladesh </p>
-        </span>
-        <div class="text-center mt-4">
-            <span class="text-white"> <a class="text-white text-decoration-none me-5" href="_Blank"> Privacy Policy
-                </a></span>
-            <span class="text-white"> <a class="text-white text-decoration-none" href="_Blank"> Terms of Use </a></span>
-
-        </div>
-        <div class="text-center mt-4">
-            <span class="text-white me-5"><i class="fa-brands fa-facebook"></i></span>
-            <span class="text-white me-5"><i class="fa-brands fa-twitter"></i></span>
-            <span class="text-white"><i class="fa-brands fa-instagram"></i></span>
-
-        </div>
-
-    </footer>
 
 
 
@@ -540,5 +558,27 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
 </body>
+
+<footer class="border rounded-3 bg-black mb-5" style="height:300px ;">
+
+    <span class="text-white text-center">
+        <h1 class="fs-1 mt-5"> Pro Edu</h1>
+        <p> Uttara Dhaka Bangladesh </p>
+    </span>
+    <div class="text-center mt-4">
+        <span class="text-white"> <a class="text-white text-decoration-none me-5" href="_Blank"> Privacy Policy
+            </a></span>
+        <span class="text-white"> <a class="text-white text-decoration-none" href="_Blank"> Terms of Use </a></span>
+
+    </div>
+    <div class="text-center mt-4">
+        <span> <a class="text-white me-5" href="https://www.facebook.com"> <i
+                    class="fa-brands fa-facebook"></i></a></span>
+        <span> <a class="text-white me-5" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></span>
+        <span> <a class="text-white" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></span>
+
+    </div>
+
+</footer>
 
 </html>
